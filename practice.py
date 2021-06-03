@@ -1,5 +1,5 @@
 from flask import Flask,request
-import json import pymongo
+import json 
 from pymongo import MongoClient
 client=MongoClient("mongodb://127.0.0.1:27017/?compressors=disabled&gssapiServiceName=mongodb")
 db = MongoClient['user_login']
